@@ -1,0 +1,43 @@
+.container {
+  word-wrap: break-word;
+
+  max-width: 736px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.tasksContainer {
+  margin-top: 4rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createdTasks > span {
+  font-size: 0.875rem;
+  color: var(--blue-500);
+  font-weight: bold;
+}
+
+.completedTasks > span {
+  font-size: 0.875rem;
+  color: var(--purple-500);
+  font-weight: bold;
+}
+
+span.counter {
+  font-size: 12px;
+  color: var(--gray-100);
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 999px;
+}
+
+.tasks {
+  margin-top: 1.5rem;
+  color: var(--gray-300);
+}
